@@ -9,4 +9,6 @@ router.get("/:nisn", pendudukController.get)
 router.get("/",pendudukController.read)
 router.delete("/:nisn", pendudukController.delete)
 router.put("/:nisn", pendudukController.edit)
+router.post("/registersiswa", pendudukController.registrasi)
+router.post("/loginsiswa", pendudukController.login)
 module.exports = router
