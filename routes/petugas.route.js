@@ -9,4 +9,6 @@ router.get("/:id_petugas", pendudukController.get)
 router.get("/",pendudukController.read)
 router.delete("/:id_petugas", pendudukController.delete)
 router.put("/:id_petugas", pendudukController.edit)
+router.post("/registrasipetugas", pendudukController.registrasi)
+router.post("/loginpetugas", pendudukController.login)
 module.exports = router
